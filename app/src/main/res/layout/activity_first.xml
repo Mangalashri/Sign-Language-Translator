@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".FirstActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/knowmore"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#2B60DE"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/fuw"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/alphabets"
+        android:layout_marginTop="122dp"   
+        android:textColor="#4863A0"
+        android:textSize="25sp"
+        android:text="@string/fuw" />
+
+    <Button
+        android:id="@+id/numbers"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/alphabets"
+        android:layout_marginTop="29dp"
+        android:text="@string/Numbers"
+        android:textSize="25sp"
+        android:textColor="#4863A0" />
+
+    <Button
+        android:id="@+id/alphabets"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="68dp"
+        android:textColor="#4863A0"
+        android:textSize="25sp"
+        android:text="@string/Alphabets" />
+
+    <ImageButton
+        android:id="@+id/backbutton_sign"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/backblue"
+        />
+    
+    <ImageButton
+        android:id="@+id/homebutton_sign"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/homeblue"
+        />
+    
+</RelativeLayout>
