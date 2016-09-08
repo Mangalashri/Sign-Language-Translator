@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+         >
+
+        <ImageButton
+            android:id="@+id/VoiceConvert"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/micblue" />
+
+        <EditText
+            android:id="@+id/entert"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="Enter text or tap on mic"
+            android:singleLine="false"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_toLeftOf="@+id/search_txt"
+            android:layout_toRightOf="@+id/VoiceConvert" />
+
+        <ImageButton
+            android:id="@+id/search_txt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:src="@drawable/searchblue" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true" >
+
+        <ImageButton
+            android:id="@+id/SignBible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/bookblue" />
+
+        <ImageButton
+            android:id="@+id/TouchToExit"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:clickable="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/closeblue" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="270dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borderforlayout"
+         >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/yoasl" />
+
+    </LinearLayout>
+
+</RelativeLayout>

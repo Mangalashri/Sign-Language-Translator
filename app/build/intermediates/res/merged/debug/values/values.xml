@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="image_fuw">
+        
+        <item>@drawable/frame_047</item>
+        <item>@drawable/frame_048</item>
+        <item>@drawable/frame_049</item>
+        <item>@drawable/frame_050</item>
+        <item>@drawable/frame_051</item>
+        <item>@drawable/frame_052</item>
+       
+    </string-array>
+    <string-array name="image_ids">
+        
+        <item>@drawable/frame_001</item>
+        <item>@drawable/frame_002</item>
+        <item>@drawable/frame_003</item>
+        <item>@drawable/frame_004</item>
+        <item>@drawable/frame_005</item>
+        <item>@drawable/frame_006</item>
+        <item>@drawable/frame_007</item>
+        <item>@drawable/frame_008</item>
+        <item>@drawable/frame_009</item>
+        <item>@drawable/frame_010</item>
+        <item>@drawable/frame_011</item>
+        <item>@drawable/frame_012</item>
+        <item>@drawable/frame_013</item>
+        <item>@drawable/frame_014</item>
+        <item>@drawable/frame_015</item>
+        <item>@drawable/frame_016</item>
+        <item>@drawable/frame_017</item>
+        <item>@drawable/frame_018</item>
+        <item>@drawable/frame_019</item>
+        <item>@drawable/frame_020</item>
+        <item>@drawable/frame_021</item>
+        <item>@drawable/frame_022</item>
+        <item>@drawable/frame_023</item>
+        <item>@drawable/frame_024</item>
+        <item>@drawable/frame_025</item>
+        <item>@drawable/frame_026</item>       
+       
+    </string-array>
+    <string-array name="image_num">
+        <item>@drawable/frame_027</item>
+        <item>@drawable/frame_028</item>
+        <item>@drawable/frame_029</item>
+        <item>@drawable/frame_030</item>
+        <item>@drawable/frame_031</item>
+        <item>@drawable/frame_032</item>
+        <item>@drawable/frame_033</item>
+        <item>@drawable/frame_034</item>
+        <item>@drawable/frame_035</item>
+        <item>@drawable/frame_036</item>           
+        <item>@drawable/frame_037</item>
+        <item>@drawable/frame_038</item>
+        <item>@drawable/frame_039</item>
+        <item>@drawable/frame_040</item>
+        <item>@drawable/frame_041</item>
+        <item>@drawable/frame_042</item>
+        <item>@drawable/frame_043</item>
+        <item>@drawable/frame_044</item>
+        <item>@drawable/frame_045</item>
+        <item>@drawable/frame_046</item>  
+    </string-array>
+    <color name="blue">#00abea</color>
+    <color name="white">#ffffff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="Alphabets">Alphabets</string>
+    <string name="Numbers">Numbers</string>
+    <string name="app_name">Sign Language Translator</string>
+    <string name="exit_application">Exit Application?</string>
+    <string name="fuw">Frequently used</string>
+    <string name="knowmore">Sign Dictionary! Select one of these.</string>
+    <string name="message_empty">Enter some text in the search box!!</string>
+    <string name="message_processing">Processing text...please wait</string>
+    <string name="no">No</string>
+    <string name="speak">Speak..</string>
+    <string name="yes">Yes</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+        
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
+    </style>
+</resources>
